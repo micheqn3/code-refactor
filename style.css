@@ -1,0 +1,134 @@
+/* Elements */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+section {                   /* Changed from "content" class to section element */
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+aside {                     /* Changed from "benefits" class to aside element */
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+header {                    /* Changed all "header" classes to header elements */
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header h1 .seo {            /* This displays the "seo" in Horiseon as a gray color */
+    color: #d9dcd6;
+}
+
+header nav {                /* Changed the div in the header to a nav element.
+                             This displays the nav on the right side of the page in a smaller font */
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+h3 {                           /* Combined repeated styling to h3 */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+footer {                      /* Changed all "footer" classes to footer element */
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h4 {
+    font-size: 20px;
+}
+/* Classes */
+.hero {                       /* Displays hero image centered after the header */
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./assets/images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.benefits{                     /* Combined benefit-lead, benefit-brand, and benefit-cost to benefits class */
+    margin-bottom: 32px;       /* Changed all children to benefits class as well */
+    color: #ffffff;
+}
+
+.benefits img {                /* Deleted 2 repeating styles: .benefits img */
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.section-box {                 /* Combined .search-engine-optimization, .online-reputation-management, .social-media-marketing into one section-box */
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: hsl(0, 0%, 100%);
+}
+
+.section-box img {             /* Combined repeating section-box img into one */
+    max-height: 200px;
+}
+
+.section-box h2 {              /* Combined repeating section-box h2 into one */
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
