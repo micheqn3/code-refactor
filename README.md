@@ -6,7 +6,7 @@ refactored by consolidating repeating CSS selectors and properties.
 
 #### Link to deployed application
 
-https://micheqn3.github.io/uci-unit1-hmwk-code-refactor/
+https://micheqn3.github.io/code-refactor/
 
 #### Screenshot of deployed application 
 
